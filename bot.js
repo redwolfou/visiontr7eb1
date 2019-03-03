@@ -5,10 +5,10 @@ const client = new Discord.Client();
 
 
 client.on('guildMemberAdd', member => {
-var channel = member.guild.channels.find('id', 'الايدي');
+var channel = member.guild.channels.find('551433744527917066');
     if(!channel) return;
  setTimeout(() => {
-channel.send('**WELCOME TO DREAM.**')
+channel.send('**WELCOME TO Vision.**')
 }, 3000,);
 })
 
